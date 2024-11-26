@@ -174,10 +174,6 @@ main{
             color : white;
             font-family: 'Mangiola';
             background-image: url(.././images/fondEducation.jpg);
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
             display : flex;
             justify-content: space-around;
 
@@ -213,10 +209,6 @@ main{
             color : #2b2927;
             font-family: 'Mangiola';
             background-image: url(.././images/fondExperience.png);
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
 
             #bloc_contact{
                 margin : auto;
@@ -307,10 +299,6 @@ main{
             color : white;
             font-family: 'Mangiola';
             background-image: url(".././images/fondInformations.png");
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
             font-size: 1.2em;
 
             #container{

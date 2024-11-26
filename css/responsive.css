@@ -1,3 +1,12 @@
+@media all and (min-width:1024px) {
+    aside{
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
 @media all and (max-width:1024px) {
     header{
         nav{
@@ -69,6 +78,10 @@
                 p{
                     font-size: 0.8em;
                 }
+                background-attachment: scroll;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
             }
         }      
     }
@@ -187,28 +200,7 @@
                 }
                 
             }
-
-            #aside_competences{
-                background-attachment: local;
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-
-            #aside_experience{
-                background-attachment: local;
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-
-            #aside_informations{
-                background-attachment: local;
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-        }      
+        }    
     }
 
     footer{
