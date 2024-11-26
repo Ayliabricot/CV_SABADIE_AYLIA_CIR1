@@ -1,0 +1,384 @@
+@font-face {
+    font-family: "Mangiola";
+    src:
+      local("Mangiola"),
+      url(".././polices/Mangiola-Regular.ttf") format("opentype") tech(color-COLRv1),
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color : inherit;
+}
+
+body{
+    width : 100%;
+    margin : auto;
+    padding : auto;
+}
+
+header{
+    font-family: 'Mangiola';
+    font-weight: lighter;
+    align-content : center;
+    color : #5a4d3b;
+    width : 100%;
+    display: flex;
+    margin:0;
+    padding : 0;
+    nav{
+        align-items: center;
+        display : flex;
+        justify-content: space-around;
+        width : 100%;
+        padding-top : 1%;
+        padding-bottom : 1%;
+        #onglets_header
+        {
+            padding : 0;
+            width : 100%;
+            display : flex;
+            justify-content: space-between;
+            list-style : none;
+            margin: auto;
+            .onglet{
+                width : 30%;
+                text-align: center;
+                font-size : 1.7em;
+                margin: 0;
+                &:hover{
+                    text-decoration: underline;
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}
+
+main{
+    display : flex;
+    flex-direction: column;
+    width : 100%;
+    margin: 0;
+    padding : 0;
+
+    #accueil{
+        margin : 0;
+        background-image : url(.././images/grandFond.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        #bloc1{
+            padding-top : 5%;
+            padding-bottom : 5%;
+            align-content: center;
+            margin : auto;
+            color: #2b2927;
+            width : 38%;
+            display: flex;
+            flex-direction: column;
+
+            #pp{
+                margin : auto;
+                width : 60%;
+            }
+            
+            h1{
+                text-align: center;
+                font-size: 2em;
+                font-family: 'Mangiola';
+                margin : auto;
+                margin-top : 2%;
+            }
+            
+            h3{
+                text-align: center;
+                font-size: 1.5em;
+                font-family: 'Mangiola';
+                font-weight: lighter;
+                margin : auto;
+                margin-top : 2%;
+            }
+
+            #reseaux{
+                margin : auto;
+                margin-top : 2%;
+                width : 30%;
+                display : flex;
+                justify-content: space-around;
+
+                i{
+                    font-size : 2.5em;
+                    color: #2b2927;
+                    margin : 0;
+                    padding:0;
+                    &:hover{
+                        color: #6b6262;
+                    }
+                }
+            }
+        }
+    }
+
+    section{
+        article{
+            width : 50%;
+            h2{
+                font-size: 2em;
+            }
+        }
+    
+        aside{
+            width : 50%;
+        }
+    }
+
+    #competences{
+        display : flex;
+        justify-content: space-around;
+        margin : 0;
+
+        #article_competences{
+            margin : 0;
+            font-family: 'Mangiola';
+            color: #0f0e0e;
+            background-color: #726158;
+            font-size: 1.2em;
+
+            #rediriger_competences{
+                font-family: 'Mangiola';
+                margin-top : 10%;
+                margin-left : 6%;
+                font-style: italic;
+                font-weight: bolder;
+            }
+
+            ul{
+                margin-left : 4%;
+                margin-top : 8%;
+                margin-bottom : 15%;
+
+                li{
+                    margin-bottom : 5%;
+                }
+            }
+        }
+        #aside_competences{
+            display : flex;
+            margin : 0;
+            color : white;
+            font-family: 'Mangiola';
+            background-image: url(.././images/fondEducation.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display : flex;
+            justify-content: space-around;
+
+            #container{
+                margin : auto;
+                width : 80%;
+                display : flex;
+                justify-content: space-between;
+
+                .pourcentages{
+                    width : 30%;
+                    text-align: center;
+                    font-size: 1.1em;
+                    img{
+                        width : 100%;
+                        transition: transform linear 20s;
+                        &:hover{
+                            transform :rotate(360deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #experience{
+        display : flex;
+        justify-content: space-around;
+        margin : 0;
+        #aside_experience {
+            display : flex;
+            margin : 0;
+            color : #2b2927;
+            font-family: 'Mangiola';
+            background-image: url(.././images/fondExperience.png);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            #bloc_contact{
+                margin : auto;
+                width : 50%;
+                #contact{
+                    background-color: #2b2927;
+                    padding:0;
+                    padding-top : 3%;
+                    padding-bottom : 3%;
+                    margin : auto;
+                    margin-top : 2%;
+                    color: #faf0e7;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        transform :scale(1.10);
+                        background-color: #817a70;
+                    }
+                }
+
+                h3{
+                    padding:0;
+                    text-align: center;
+                    font-size: 1.5em;
+                    font-family: 'Mangiola';
+                    font-weight: lighter;
+                    margin : auto;
+                }
+            }
+        }
+          
+        #article_experience { 
+            font-family: 'Mangiola';
+            color: #faf0e7;
+            background-color: #9b9285;
+            font-size: 1.2em;
+
+            #rediriger_experience{
+                font-family: 'Mangiola';
+                margin-top : 10%;
+                margin-left : 6%;
+                font-style: italic;
+                font-weight: bolder;
+            }
+
+            ul{
+                margin-left : 4%;
+                margin-top : 8%;
+                margin-bottom : 15%;
+
+                li{
+                    margin-top : 5%;
+                }
+            }
+        }
+    }
+
+    #informations{
+        display : flex;
+        justify-content: space-around;
+        margin : 0;
+        #article_informations{
+            margin : 0;
+            font-family: 'Mangiola';
+            color: #695d5d;
+            background-color: #d4c9bc;
+            font-size: 1.2em;
+
+            #rediriger_informations{
+                font-family: 'Mangiola';
+                margin-top : 10%;
+                margin-left : 6%;
+                font-style: italic;
+                font-weight: bolder;
+            }
+
+            #paragraphe_informations{
+                text-align: center;
+                margin-top : 8%;
+                margin-bottom : 15%;  
+                margin-left : 8%;
+                margin-right : 8%;
+            }
+        }
+
+        #aside_informations{
+            display : flex;
+            margin : 0;
+            color : white;
+            font-family: 'Mangiola';
+            background-image: url(".././images/fondInformations.png");
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-size: 1.2em;
+
+            #container{
+                margin : auto;
+                width : 80%;
+                display : flex;
+                justify-content: space-around;
+
+                .loisirs{
+                    width : 30%;
+                    text-align: center;
+                    img{
+                        width : 100%;
+                        transition: transform linear 0.3s;
+                        &:hover{
+                            transform :scale(1.10);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    width : 100%;
+    font-family: 'Mangiola';
+    font-weight: lighter;
+    align-items: center;
+    color : #5a4d3b;
+    display : flex;
+    margin:0;
+    justify-content: space-around;
+    background-color: #423e3e;
+    #container{
+        display : flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : auto;
+        width : 100%;
+        margin-top : 4%;
+        margin-bottom : 4%;
+        padding-left : 5%;
+        padding-right : 5%;
+
+        #monFooter{
+            font-family: 'Mangiola';
+            font-size: 2em;
+            font-weight: lighter;
+            text-align: center;
+            color: white;
+            margin : 0;
+        }
+
+        #reseauxFooter{
+
+            width : 15%;
+            display : flex;
+            justify-content: space-around;
+            i{
+                font-size : 2.5em;
+                color: white;
+                margin : 0;
+                padding:0;
+                &:hover{
+                    color: #9c9c9c;
+                }
+            }
+        }
+    }
+}

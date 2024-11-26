@@ -1,0 +1,214 @@
+@media all and (max-width:1024px) {
+    header{
+        nav{
+            #onglets_header
+            {
+                .onglet{
+                    font-size : 1.3em;
+                }
+            }
+        }
+    }  
+    
+    main{
+        #accueil{
+            width : 100%;
+            #bloc1{
+                
+                h1{
+                    font-size: 1.5em;
+                }
+                
+                h3{
+                    font-size: 1em;
+                }
+    
+                #reseaux{
+                    margin : auto;
+                    margin-top : 2%;
+                    width : 30%;
+                    display : flex;
+                    justify-content: space-around;
+    
+                    i{
+                        font-size : 1.5em;
+                        color: #2b2927;
+                        margin : 0;
+                        padding:0;
+                        &:hover{
+                            color: #6b6262;
+                        }
+                    }
+                }
+            }
+        }
+            
+        section{
+
+            article{
+                    
+                    h2{
+                        font-size: 1.2em;
+                    }
+                    p{
+                        font-size: 0.8em;
+                    }
+                    ul{
+                        padding-right: 4%;
+                        li{
+                            font-size: 0.8em;
+                        }
+                    }
+            }
+                
+            aside{
+                #bloc_contact{
+                    font-size: 0.8em;
+                }
+                
+                p{
+                    font-size: 0.8em;
+                }
+            }
+        }      
+    }
+
+    footer{
+        #container{
+            margin-top : 6%;
+            margin-bottom : 6%;
+            #monFooter{
+                font-size: 1.5em;
+            }
+
+            #reseauxFooter{
+                display : flex;
+                width : 20%;
+                i{
+                    font-size: 1.9em;
+                }
+            }
+        }
+    }
+} 
+
+@media all and (max-width:425px) {
+    header{
+        nav{
+            align-items: center;
+            display : flex;
+            flex-direction: column;
+            width : 100%;
+            #onglets_header
+            {
+                display : flex;
+                flex-direction: column;
+                .onglet{
+                    width : 100%;
+                    text-align: center;
+                    font-size : 1.3em;
+                }
+            }
+        }
+    }  
+    
+    main{
+        display : flex;
+        flex-direction: column;
+        height : 2000px;
+        #accueil{
+            width : 100%;
+            #bloc1{
+                width : 100%;
+                align-content: center;
+                display: flex;
+                flex-direction: column;
+                
+                h1{
+                    font-size: 1.5em;
+                }
+                
+                h3{
+                    font-size: 1em;
+                }
+    
+                #reseaux{
+                    margin : auto;
+                    margin-top : 2%;
+                    width : 30%;
+                    display : flex;
+                    justify-content: space-around;
+    
+                    i{
+                        font-size : 1.5em;
+                        color: #2b2927;
+                        margin : 0;
+                        padding:0;
+                        &:hover{
+                            color: #6b6262;
+                        }
+                    }
+                }
+            }
+        }
+            
+        section{
+            width : 100%;
+            display : flex;
+            flex-direction: column;
+
+            article{
+                    width : 100%;
+                    #rediriger_experience{
+                        margin : auto;
+                    }
+                    h2{
+                        text-align : center;
+                        font-size: 1.2em;
+                    }
+                    p{
+                        font-size: 0.8em;
+                    }
+                    ul{
+                        padding-left : 5%;
+                        padding-right : 4%;
+                        li{
+                            font-size: 0.8em;
+                        }
+                    }
+            }
+                
+            aside{
+                width : 100%;
+                height : 300px;
+                #bloc_contact{
+                    width : 100%;
+                    font-size: 0.8em;
+                }
+                
+            }
+        }      
+    }
+
+    footer{
+        #container{
+            margin-top : 5%;
+            margin-bottom : 5%;
+            display : flex;
+            flex-direction: column;
+
+            #monFooter{
+                font-size: 1.5em;
+            }
+
+            #reseauxFooter{
+                width : 40%;
+                margin: auto;
+                margin-top : 3%;
+                i{
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+}
