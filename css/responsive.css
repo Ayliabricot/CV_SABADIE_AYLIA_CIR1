@@ -1,12 +1,3 @@
-@media all and (min-width:1024px) {
-    aside{
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-}
-
 @media all and (max-width:1024px) {
     header{
         nav{
