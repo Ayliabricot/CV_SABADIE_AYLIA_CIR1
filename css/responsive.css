@@ -188,17 +188,25 @@
                 
             }
 
-            #aside_informations{
-                display : flex;
-                margin : 0;
-                color : white;
-                font-family: 'Mangiola';
-                background-image: url(".././images/fondInformations.png");
+            #aside_competences{
                 background-attachment: local;
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-                font-size: 1.2em;
+            }
+
+            #aside_experience{
+                background-attachment: local;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #aside_informations{
+                background-attachment: local;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
             }
         }      
     }
