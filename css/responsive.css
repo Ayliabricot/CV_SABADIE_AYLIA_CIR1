@@ -190,21 +190,21 @@
 
             #aside_competences{
                 background-attachment: local;
-                background-size: cover;
+                background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
             }
 
             #aside_experience{
                 background-attachment: local;
-                background-size: cover;
+                background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
             }
 
             #aside_informations{
                 background-attachment: local;
-                background-size: cover;
+                background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
             }
