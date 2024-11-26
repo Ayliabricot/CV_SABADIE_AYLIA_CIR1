@@ -194,8 +194,8 @@
                 color : white;
                 font-family: 'Mangiola';
                 background-image: url(".././images/fondInformations.png");
-                background-attachment: scroll;
-                background-size: contain;
+                background-attachment: local;
+                background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
                 font-size: 1.2em;
