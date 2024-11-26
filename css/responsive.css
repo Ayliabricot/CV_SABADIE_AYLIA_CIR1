@@ -69,10 +69,6 @@
                 p{
                     font-size: 0.8em;
                 }
-                background-attachment: scroll;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
             }
         }      
     }
