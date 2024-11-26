@@ -187,6 +187,18 @@
                 }
                 
             }
+
+            #aside_informations{
+                display : flex;
+                margin : 0;
+                color : white;
+                font-family: 'Mangiola';
+                background-image: url(".././images/fondInformations.png");
+                background-attachment: scroll;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                font-size: 1.2em;
         }      
     }
 
